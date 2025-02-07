@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyButtonPage(name: 'Demo Hello World !!',),
+      home: MyHomePage(title: 'Demo Hello World !!',),
     );
   }
 }
